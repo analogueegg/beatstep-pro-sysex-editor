@@ -1,0 +1,6 @@
+{
+  "name": "BeatStep Pro SysEx Editor",
+  "description": "Configure Arturia BeatStep Pro device settings using MIDI System Exclusive (SysEx) messages via Web MIDI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
