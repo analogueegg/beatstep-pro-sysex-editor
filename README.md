@@ -49,4 +49,3 @@ This application is built with a highly responsive, modern client-side frontend 
 > [!NOTE]
 > **This application was built with the assistance of Artificial Intelligence.**  
 > It was created using Google AI Studio's advanced AI Coding Agents. The AI assisted with designing the modern styling, validating hardware parameters, configuring custom Drum MIDI channels, and implementing fully dynamic theme toggles.
-that
