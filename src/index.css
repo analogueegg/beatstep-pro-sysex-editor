@@ -1,0 +1,121 @@
+@import "tailwindcss";
+
+@theme {
+  --color-canvas-bg: var(--canvas-bg);
+  --color-card-bg: var(--card-bg);
+  --color-card-bg-hover: var(--card-bg-hover);
+  --color-border-subtle: var(--border-subtle);
+  --color-border-subtle-hover: var(--border-subtle-hover);
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-accent-blue: var(--accent-blue);
+  --color-accent-blue-hover: var(--accent-blue-hover);
+  --color-accent-bg: var(--accent-bg);
+  --color-accent-border: var(--accent-border);
+  --color-warning-text: var(--warning-text);
+  --color-warning-border: var(--warning-border);
+  --color-warning-bg: var(--warning-bg);
+  --color-success-text: var(--success-text);
+  --color-success-bg: var(--success-bg);
+  --color-success-border: var(--success-border);
+  --color-btn-bg: var(--btn-bg);
+  --color-btn-bg-hover: var(--btn-bg-hover);
+  --color-btn-text: var(--btn-text);
+  --color-input-bg: var(--input-bg);
+  --color-input-text: var(--input-text);
+}
+
+:root, :root.light {
+  /* Colors for Light Mode */
+  --canvas-bg: #f6f8fa;
+  --card-bg: #ffffff;
+  --card-bg-hover: #f3f4f6;
+  --border-subtle: #d0d7de;
+  --border-subtle-hover: #8c959f;
+  --text-primary: #24292f;
+  --text-secondary: #57606a;
+  
+  --accent-blue: #0969da;
+  --accent-blue-hover: #0c57c2;
+  --accent-bg: rgba(9, 105, 218, 0.08);
+  --accent-border: rgba(9, 105, 218, 0.15);
+  
+  --warning-text: #9a6700;
+  --warning-border: rgba(154, 103, 0, 0.2);
+  --warning-bg: rgba(154, 103, 0, 0.08);
+  
+  --success-text: #1a7f37;
+  --success-bg: rgba(26, 127, 55, 0.1);
+  --success-border: rgba(26, 127, 55, 0.15);
+  
+  --btn-bg: #f6f8fa;
+  --btn-bg-hover: #eef1f4;
+  --btn-text: #24292f;
+  
+  --input-bg: #ffffff;
+  --input-text: #24292f;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Colors for Dark Mode */
+    --canvas-bg: #0d1117;
+    --card-bg: #161b22;
+    --card-bg-hover: #1f242c;
+    --border-subtle: #30363d;
+    --border-subtle-hover: #8b949e;
+    --text-primary: #f0f6fc;
+    --text-secondary: #8b949e;
+    
+    --accent-blue: #58a6ff;
+    --accent-blue-hover: #79c0ff;
+    --accent-bg: rgba(88, 166, 255, 0.15);
+    --accent-border: rgba(88, 166, 255, 0.15);
+    
+    --warning-text: #d29922;
+    --warning-border: rgba(210, 153, 34, 0.2);
+    --warning-bg: rgba(210, 153, 34, 0.1);
+    
+    --success-text: #238636;
+    --success-bg: rgba(35, 134, 54, 0.15);
+    --success-border: rgba(35, 134, 54, 0.2);
+    
+    --btn-bg: #21262d;
+    --btn-bg-hover: #30363d;
+    --btn-text: #c9d1d9;
+    
+    --input-bg: #0d1117;
+    --input-text: #ffffff;
+  }
+}
+
+:root.dark {
+  /* Colors for Dark Mode */
+  --canvas-bg: #0d1117;
+  --card-bg: #161b22;
+  --card-bg-hover: #1f242c;
+  --border-subtle: #30363d;
+  --border-subtle-hover: #8b949e;
+  --text-primary: #f0f6fc;
+  --text-secondary: #8b949e;
+  
+  --accent-blue: #58a6ff;
+  --accent-blue-hover: #79c0ff;
+  --accent-bg: rgba(88, 166, 255, 0.15);
+  --accent-border: rgba(88, 166, 255, 0.15);
+  
+  --warning-text: #d29922;
+  --warning-border: rgba(210, 153, 34, 0.2);
+  --warning-bg: rgba(210, 153, 34, 0.1);
+  
+  --success-text: #238636;
+  --success-bg: rgba(35, 134, 54, 0.15);
+  --success-border: rgba(35, 134, 54, 0.2);
+  
+  --btn-bg: #21262d;
+  --btn-bg-hover: #30363d;
+  --btn-text: #c9d1d9;
+  
+  --input-bg: #0d1117;
+  --input-text: #ffffff;
+}
